@@ -148,6 +148,7 @@
                         <img src="/imagens/img-1.jpg.jpg" alt="">
                         <div class="text">Emanuel Veronez</div>
                         <p>Developer <br>and student</p>
+                        <br>
                         <div class="button">
                             <a href="https://www.linkedin.com/in/emanuel-veronez-lima-09105822b"><button>Linkedin</button></a>
                         </div>
@@ -159,6 +160,7 @@
                         <div class="text">Mauro Itiki</div>
                         <p>
                             Our mentor <br> OutSystems Developer</p>
+                        <br>
                         <div class="button">
                             <a href="https://www.linkedin.com/in/mauroitiki/"><button>Linkedin</button></a>
                         </div>
@@ -170,6 +172,7 @@
                         <img src="/imagens/955b45f9-dff8-47b4-aada-69e98b5765ee.jpg" alt="">
                         <div class="text">Gustavo Melo</div>
                         <p>Junior Developer <br> full stack</p>
+                        <br>
                         <div class="button">
                             <a href="https://www.linkedin.com/in/gustavo-melo-057a05233/"><button>Linkedin</button></a>
                         </div>
@@ -180,6 +183,7 @@
                         <img src="/imagens/015cc564-d351-4c48-849b-76fe11771198.jpg" alt="">
                         <div class="text">Marcos Pereira </div>
                         <p>Student and <br>intern</p>
+                        <br>
                         <div class="button">
                             <a href="https://www.linkedin.com/in/marcos-vinicius-pereira-81b612214/"><button>Linkedin</button></a>
                         </div>
@@ -191,6 +195,7 @@
                         <img src="/imagens/abe2ef12-fa69-40e5-8c68-8dea1c1aabe3.jpg" alt="">
                         <div class="text">Vitor Silva </div>
                         <p>Young apprentice <br> and student</p>
+                        <br>
                         <div class="button">
                             <a href=""><button>...</button></a>
                         </div>
@@ -237,30 +242,32 @@
                 </div>
                 <div class="column right">
                     <div class="text">Mensagem</div>
-                    <form action="#">
+                    <form action="https://formsubmit.co/emanuel.veronezz@gmail.com" method="POST" class="contact">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Nome" required>
+                                <input type="text" name="Nome" placeholder="Nome" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="Email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
                             <div class="fields">
-                                <input type="text" placeholder="Sobrenome" required>
+                                <input type="text" name="Sobrenome" placeholder="Sobrenome" required>
                             </div>
                             <div class="field textarea">
-                                <textarea cols="30" rows="10" placeholder="Escrever..." required></textarea>
+                                <textarea cols="30" rows="10" name="Menssagem" placeholder="Escrever..." required></textarea>
                                 <div class="button">
                                     <button type="submit"> Enviar</button>
                                 </div>
                             </div>
                         </div>
+                        <input type="hidden" name="_next" value="https://portfolioequipe.netlify.app/" />
                     </form>
                 </div>
             </div>
     </section>
+
     <!--footer-->
     <footer>
         <span>Criado por <a href="#">Emanuel</a> | Todos os direitos reservados 2022</span>

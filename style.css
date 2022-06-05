@@ -473,8 +473,8 @@ footer {
 .box .button button {
     width: 100%;
     height: 100%;
-    border: 2px solid #fff5f5;
-    background: #008071;
+    border: 2px solid #008071;
+    background: #222;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 500;
@@ -485,7 +485,7 @@ footer {
 
 .box .button button:hover {
     color: #111;
-    background: #fff;
+    background: #2dc8b6;
 }
 
 .owl-dots {
